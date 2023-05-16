@@ -63,21 +63,19 @@ main .cartao-pokemon {
 }
 
 main .cartao-pokemon:hover {
+	background-image: linear-gradient(116deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
 
-	background-color: #3e4aec;
-	background-image: linear-gradient(180deg, #f8f53ce0 0%, #ee74e200 100%);
 
+.modo-escuro .cartao-pokemon {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(137deg, rgba(0, 0, 0, 0.8575805322128851) 0%, rgba(188, 120, 236, 0.8099614845938375) 50%, rgba(0, 0, 0, 0.5382528011204482) 100%);
 }
 
 .modo-escuro .cartao-pokemon:hover {
 	background: rgb(2, 46, 73);
 	background: linear-gradient(223deg, rgba(2, 46, 73, 0.6727065826330532) 5%, rgba(68, 1, 41, 0.700717787114846) 42%, rgba(53, 7, 89, 0.7203256302521008) 77%);
 	;
-}
-
-.modo-escuro .cartao-pokemon {
-	background: rgb(0, 0, 0);
-	background: linear-gradient(137deg, rgba(0, 0, 0, 0.8575805322128851) 0%, rgba(188, 120, 236, 0.8099614845938375) 50%, rgba(0, 0, 0, 0.5382528011204482) 100%);
 }
 
 main .cartao-pokemon .informacoes {
