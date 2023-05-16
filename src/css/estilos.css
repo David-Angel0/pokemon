@@ -5,8 +5,9 @@ body {
 	background-image: url('/pokemon/claro.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #333333;
+	color: black;
 }
+
 .modo-escuro {
 	background-image: url('/pokemon/escuro.png');
 	background-repeat: no-repeat;
@@ -63,14 +64,20 @@ main .cartao-pokemon {
 
 main .cartao-pokemon:hover {
 
-	background-color: #ee74e28c;
-	background-image: linear-gradient(19deg, #3ee6ec88 0%, #ee74e294 100%);
+	background-color: #3e4aec67;
+	background-image: linear-gradient(180deg, #f8f53ce0 0%, #ee74e200 100%);
 
 }
 
+.modo-escuro .cartao-pokemon:hover {
+	background: rgb(2, 46, 73);
+	background: linear-gradient(223deg, rgba(2, 46, 73, 0.6727065826330532) 5%, rgba(68, 1, 41, 0.700717787114846) 42%, rgba(53, 7, 89, 0.7203256302521008) 77%);
+	;
+}
+
 .modo-escuro .cartao-pokemon {
-	background-color: #ff3caa6b;
-	background-image: linear-gradient(225deg, #ff3caa79 0%, #784ba0d2 50%, #2b85c59f 100%);
+	background: rgb(0, 0, 0);
+	background: linear-gradient(137deg, rgba(0, 0, 0, 0.8575805322128851) 0%, rgba(188, 120, 236, 0.8099614845938375) 50%, rgba(0, 0, 0, 0.5382528011204482) 100%);
 }
 
 main .cartao-pokemon .informacoes {
@@ -126,22 +133,22 @@ main .cartao-pokemon .tipo {
 }
 
 .eletrico {
-	background-color: #f8d030;
+	background-color: #f8d030e5;
 }
 
 .lutador {
-	background-color: #c02038;
+	background-color: #c02038e7;
 }
 
 .psiquico {
-	background-color: #f85888;
+	background-color: #f85888e5;
 }
 
 .fantasma {
 	background-color: #705898;
 }
 
-.pedra  {
+.pedra {
 	background-color: #e0c068;
 }
 
@@ -156,6 +163,15 @@ main .cartao-pokemon .tipo {
 .gelo {
 	background-color: #98d8d8;
 }
+
+.dragao {
+	background-color: #7238f8de;
+}
+
+.voador {
+	background-color: #a890f0;
+}
+
 
 main .descricao {
 	max-height: 80px;
