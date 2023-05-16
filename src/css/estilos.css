@@ -64,7 +64,7 @@ main .cartao-pokemon {
 
 main .cartao-pokemon:hover {
 
-	background-color: #3e4aec67;
+	background-color: #3e4aec;
 	background-image: linear-gradient(180deg, #f8f53ce0 0%, #ee74e200 100%);
 
 }
